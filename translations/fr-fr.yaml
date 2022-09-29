@@ -1,0 +1,93 @@
+app_name: Text2STL
+app_title: Générateur gratuit de text 3D imprimable
+app_subtitle: Generer du text 3D imprimable en un clique
+index_page:
+  title: Generer du text 3D imprimable n'a jamais été aussi simple !
+  list:
+    font:
+      dt: Police personnalisée
+      dd: Choisissez une police parmis plus de 1000 polices Google ou utilisez la vôtre
+    shape:
+      dt: Forme personnalisée
+      dd: Choisissez une forme (avec ou sans support, texte inversé).
+    text:
+      dt: Texte personnalisé
+      dd: Choisissez le text à imprimer.
+    settings:
+      dt: Réglages personnalisés
+      dd: Affinez les réglages, taille de police, hauteur du support et/ou du texte...
+    stl:
+      dt: Fichier STL
+      dd: Exportez votre fichier STL en un clique !
+  image_alt: Texte 3D imprimable
+  button: Commencez ...
+language: Langue
+mm_unit: mm
+settings_form:
+  tabs:
+    settings: Réglages
+    font: Police
+    advanced: Plus...
+export_stl: Exporter STL
+stl_counter: "{count} fichiers STL ont été générés"
+footer:
+  made_by: Créer avec ♥ par {author} avec {ember} & {three}
+  github: Contribuez ou faite un fork sur GitHub
+  issue: Un bug ? Demander une nouvelle fonctionnalité ?
+font_picker:
+  category: Category de police
+  name: Nom de police
+  variant: Variante de police
+  size: Taille de police
+text_settings:
+  type: Type de forme
+  text: Texte
+  size: Taille du texte
+  height: Hauteur du texte
+  kerning: Espacement du texte
+  vkerning: Espacement des lignes
+  supportHeight: Hauteur du support
+  supportPadding: Espacement du support
+  alignment: Alignement du texte
+  supportBorderRadius: Rayon des coins
+  handleSettings:
+    label: Option d'accroche
+    type:
+      label: Type
+      none: Aucune
+      hole: Trou
+      handle: Poignée
+    position: Position
+    size: Taille
+    size2: Largeur
+    offsetX: Décalage X
+    offsetY: Décalage Y
+alignment:
+  left: Gauche
+  center: Centré
+  right: Droite
+directions:
+  top: Haut
+  bottom: Bas
+  left: Gauche
+  right: Droite
+three_preview:
+  size: "Taille d'impression : {x} x {y} x {z} mm"
+text_type:
+  1: Text seul
+  2: Text avec support
+  3: Text negatif sur support
+  4: Text vertical avec support
+  5: Text avec accroche
+custom_font:
+  ck_label: Utiliser une police personnalisé
+  current_label: Fichier actuel
+  no_font: Aucune
+  upload:
+    drop_zone: Utiliser un fichier police personalisé en déposant un fichier (woff, otf, ttf) ici ou
+    input_label: parcourir votre ordinateur & selectionner un fichier
+    bad_file_type: Format de fichier non supporté, veuillez utiliser un fichier .woff, .otf ou .ttf
+errors:
+  font_load_generic: "Erreur de chargement de la police"
+seo:
+  description: Générer du texte 3D en 1 click ! Choisissez une police parmi plus de 1000 polices Google ou utilisez la vôtre, différentes formes et réglagles & téléchargez un fichier STL à imprimer.

@@ -1,0 +1,96 @@
+app_name: Text2STL
+app_title: Free 3D printable text generator
+app_subtitle: Generate 3D printable text in one click
+index_page:
+  title: Generate 3D printable text has never been so easy !
+  list:
+    font:
+      dt: Custom font
+      dd: Choose a font from more than 1000 Google fonts or use your own.
+    shape:
+      dt: Custom shape
+      dd: Select a shape type (with or without support, negative text).
+    text:
+      dt: Custom text
+      dd: Choose the text you want to print.
+    settings:
+      dt: Custom settings
+      dd: Adjust the settings, choose the font size, the support and/or text height...
+    stl:
+      dt: Export STL
+      dd: Export your STL file in one click !
+  image_alt: Printable 3D text
+  button: Let's start ...
+languages:
+  fr-fr: Français
+  en-us: English
+language: Language
+mm_unit: mm
+settings_form:
+  tabs:
+    settings: Settings
+    font: Font
+    advanced: More...
+export_stl: Export STL
+stl_counter: "{count} STL files have been generated"
+footer:
+  made_by: Made with ♥ By {author} with {ember} & {three}
+  github: Contribute or fork me on GitHub
+  issue: Find a bug ? Request a new feature ?
+font_picker:
+  category: Font category
+  name: Font name
+  variant: Font variant
+  size: Font size
+text_settings:
+  type: Type of shape
+  text: Text
+  size: Text size
+  height: Text height
+  kerning: Text kerning
+  vkerning: Line kerning
+  supportHeight: Support height
+  supportPadding: Support spacing
+  alignment: Text alignment
+  supportBorderRadius: Border radius
+  handleSettings:
+    label: Handle settings
+    type:
+      label: Type
+      none: None
+      hole: Hole
+      handle: Handle
+    position: Position
+    size: Size
+    size2: Width
+    offsetX: Horizontal offset
+    offsetY: Vertical offset
+alignment:
+  left: Left
+  center: Center
+  right: Right
+directions:
+  top: Top
+  bottom: Bottom
+  left: Left
+  right: Right
+three_preview:
+  size: "Print size : {x} x {y} x {z} mm"
+text_type:
+  1: Text only
+  2: Text with support
+  3: Negative text on support
+  4: Vertical text with support
+  5: Text with handle
+custom_font:
+  ck_label: Use custom font
+  current_label: Current file
+  no_font: None
+  upload:
+    drop_zone: Use custom font file by dropping font file (woff, otf, ttf) here or
+    input_label: browse your computer for a font file
+    bad_file_type: Unsupported font file type, please use .woff, .otf or .ttf file
+errors:
+  font_load_generic: "Selected font can't be load"
+seo:
+  description: Generate 3D printable text in one click ! Choose a font from more than 1000 fonts or use your own, different shape and settings & download an STL file to print.

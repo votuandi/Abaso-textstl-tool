@@ -1,0 +1,9 @@
+<ul ...attributes class="uk-subnav uk-subnav-divider" data-test-language-switcher>
+  {{#each this.availableLanguages as |language|}}
+    <li class={{if (eq language this.intl.primaryLocale) "uk-active"}} data-test-language-item={{language}}>
+      <LinkTo @route={{this.router.currentRouteName}} @model={{language}}>
+        {{t (concat "languages." language)}}
+      </LinkTo>
+    </li>
+  {{/each}}
+</ul>
